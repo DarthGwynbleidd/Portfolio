@@ -1,0 +1,15 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 35%;
+    h2{
+        display: block;
+    }
+    img{
+        display: block;
+        border: solid 2px white;
+        border-radius: 50%;
+        width: 50%;
+    }
+}

@@ -1,0 +1,13 @@
+.leftSide{
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            margin: 50px 20px;
+            transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+        }
+    }
+}

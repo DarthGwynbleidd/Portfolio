@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    .main-container{
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }

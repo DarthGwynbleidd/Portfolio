@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 65%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
+}
