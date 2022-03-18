@@ -1,16 +1,12 @@
-.about{
+.projects{
     display: flex;
     margin: 0;
-    background-color: RGBA(87,101,116,0.08);
-    height: 350px;
-    width: 800px;
     &__tag-top{
         font-family: cursive;
         font-style: italic;
         color: #576574;
-        position: relative;
         font-size: 0.6rem;
-        margin-top: -2em;
-        left: -2em;
+        margin-top: -5em;
+        left: -1.5em;
     }
 }

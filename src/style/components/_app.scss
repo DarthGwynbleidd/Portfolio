@@ -1,12 +1,50 @@
-.App{
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  &__tag_top {
+    font-family: cursive;
+    font-style: italic;
+    color: #576574;
+    font-size: 0.6em;
+  }
+  &__tag_top:after {
+    content: '<body>';
+    font-family: cursive;
+    font-style: italic;
+    color: #576574;
+    font-size: 0.6rem;
+    position: absolute;
+    margin-left: 2rem;
+  }
+  &__tag_bottom{
+    font-family: cursive;
+    font-style: italic;
+    color: #576574;
+    font-size: 0.6em;
+  }
+  &__tag_bottom:before{
+    content: '</body>';
+    font-family: cursive;
+    font-style: italic;
+    color: 576574;
+    font-size: 0.6rem;
+    position: absolute;
+    margin-left: 2rem;
+  }
+  &__main-container {
+    min-height: 450px;
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 90%;
-    .main-container{
-      height: 500px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    &__side{
       display: flex;
       flex-direction: row;
-      align-items: center;
+    }
+    &__pages{
+      margin: auto;
     }
   }
+}
