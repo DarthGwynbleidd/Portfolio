@@ -7,14 +7,14 @@
     font-family: cursive;
     font-style: italic;
     color: #576574;
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   &__tag_top:after {
     content: '<body>';
     font-family: cursive;
     font-style: italic;
     color: #576574;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     position: absolute;
     margin-left: 2rem;
   }
@@ -22,14 +22,14 @@
     font-family: cursive;
     font-style: italic;
     color: #576574;
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   &__tag_bottom:before{
     content: '</body>';
     font-family: cursive;
     font-style: italic;
     color: 576574;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     position: absolute;
     margin-left: 2rem;
   }
@@ -42,6 +42,8 @@
     &__side{
       display: flex;
       flex-direction: row;
+      margin-bottom: 80px;
+      margin-top: 50px;
     }
     &__pages{
       margin: auto;

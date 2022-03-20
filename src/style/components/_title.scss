@@ -3,7 +3,7 @@
         color: #fff;
         margin: 0;
         padding-right: 3px;
-        font-size: 5rem;
+        font-size: 7em;
         position: relative;
         line-height: 0.8em;
     }
@@ -12,7 +12,7 @@
         font-family: cursive;
         font-style: italic;
         color: #576574;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         position: absolute;
         margin-top: -5em;
         left: -1.5em;
@@ -37,7 +37,7 @@
     font-weight: bold;
     grid-row-start: 1;
     grid-column-start: 1;
-    font-size: 5rem;
+    font-size: 7rem;
     --stack-height: calc(100% / var(--stacks) - 1px);
     --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
     --clip-top: calc(var(--stack-height) * var(--index));
@@ -94,8 +94,8 @@
     font-family: cursive;
     font-style: italic;
     color: #576574;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     position: absolute;
-    margin-top: 1.5rem;
-    margin-left: 23rem;
+    margin-top: 3.2em;
+    margin-left: 40em;
 }
